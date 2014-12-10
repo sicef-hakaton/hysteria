@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    
+    <ImageButton android:id="@+id/imgBtnNewRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/new_request"
+        android:background="@drawable/circle_button"
+        android:scaleX="0.95"
+        android:scaleY="0.95"/>
+    
+    <Button android:id="@+id/btnNewRequest"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_toRightOf="@id/imgBtnNewRequest"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="-8dp"
+        android:background="@drawable/blue_button"
+        android:text="@string/new_request"/>
+   
+    <!-- ************************************************************** -->
+    
+    <ImageButton android:id="@+id/imgBtnShowRequests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnNewRequest"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/show_requests"
+        android:background="@drawable/circle_button"
+        android:scaleX="0.95"
+        android:scaleY="0.95"/>
+    
+    <Button android:id="@+id/btnShowRequests"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_toRightOf="@id/imgBtnShowRequests"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="-8dp"
+        android:background="@drawable/white_button"
+        android:text="@string/show_requests"/>
+   
+    <!-- ************************************************************** -->
+    
+    <Button android:id="@+id/btnShowSchoolarships"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_below="@id/btnNewRequest"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/white_button"
+        android:text="@string/show_schoolarships"/>
+    
+    <ImageButton android:id="@+id/imgBtnShowSchoolarships"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnShowSchoolarships"
+        android:layout_below="@id/btnNewRequest"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="-8dp"
+        android:contentDescription="@string/show_schoolarships"
+        android:background="@drawable/circle_button"
+        android:scaleX="0.95"
+        android:scaleY="0.95"/>
+        
+    <!-- ************************************************************** -->
+    
+    <Button android:id="@+id/btnShowInternships"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_toRightOf="@id/imgBtnShowSchoolarships"
+        android:layout_below="@id/btnShowRequests"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/blue_button"
+        android:text="@string/show_internships"/>
+    
+    <ImageButton android:id="@+id/imgBtnShowInternships"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnShowInternships"
+        android:layout_below="@id/btnShowRequests"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="-8dp"
+        android:contentDescription="@string/show_internships"
+        android:background="@drawable/circle_button"
+        android:scaleX="0.95"
+        android:scaleY="0.95"/>
+       
+    <!-- ************************************************************** -->
+        
+    <ImageButton android:id="@+id/informimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnShowInternships"
+        android:layout_alignLeft="@id/btnShowInternships"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/show_internships"
+        android:background="@drawable/circle_button"
+        android:scaleX="0.95"
+        android:scaleY="0.95"/>    
+        
+    <Button android:id="@+id/informbtn"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_toLeftOf="@id/informimg"
+        android:layout_below="@id/btnShowInternships"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="-8dp"
+        android:background="@drawable/blue_button"
+        android:text="@string/show_internships"/>
+        
+    
+        
+</RelativeLayout>

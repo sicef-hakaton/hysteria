@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="@string/require_document"
+        android:src="@drawable/documents"/>
+    
+    <Spinner android:id="@+id/spnRequestType"
+	     android:layout_width="220dp"
+	     android:layout_height="wrap_content"/>
+
+    <Button 
+        android:id="@+id/btnMakeRequest"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/require_document"
+        android:background="@drawable/hysteria_button"
+        style="@style/dark_button"/>
+    
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    
+    <ImageButton android:id="@+id/imgBtnNewRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/new_request"
+        android:background="@drawable/circle_button"
+        android:src="@drawable/add_request"/>
+        
+    <Button android:id="@+id/btnNewRequest"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_toRightOf="@id/imgBtnNewRequest"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="-5dp"
+        android:background="@drawable/blue_button"
+        android:text="@string/new_request"/>
+    
+    <!-- ************************************************************** -->
+    
+    <ImageButton android:id="@+id/imgBtnShowRequests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnNewRequest"
+        android:layout_alignRight="@id/btnNewRequest"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/show_requests"
+        android:background="@drawable/circle_button"
+        android:src="@drawable/view_requests"/>
+    
+    <Button android:id="@+id/btnShowRequests"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_toLeftOf="@id/imgBtnShowRequests"
+        android:layout_below="@id/imgBtnNewRequest"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_button"
+        android:text="@string/show_requests"/>
+    
+    <!-- ************************************************************** -->
+    
+    <ImageButton android:id="@+id/imgBtnShowSchoolarships"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnShowRequests"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/show_schoolarships"
+        android:background="@drawable/circle_button"
+        android:src="@drawable/view_scholarships"/>
+    
+    <Button android:id="@+id/btnShowSchoolarships"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_toRightOf="@id/imgBtnShowSchoolarships"
+        android:layout_below="@id/imgBtnShowRequests"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="-5dp"
+        android:background="@drawable/blue_button"
+        android:text="@string/show_schoolarships"/>
+    
+    <!-- ************************************************************** -->
+    
+    <ImageButton android:id="@+id/imgBtnShowInternships"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnShowSchoolarships"
+        android:layout_alignRight="@id/btnShowSchoolarships"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/show_internships"
+        android:background="@drawable/circle_button"
+        android:src="@drawable/view_internships"/>
+    
+    <Button android:id="@+id/btnShowInternships"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_toLeftOf="@id/imgBtnShowInternships"
+        android:layout_below="@id/imgBtnShowSchoolarships"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_button"
+        android:text="@string/show_internships"/>
+    
+    <!-- ************************************************************** -->
+    
+    <ImageButton android:id="@+id/informimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnShowInternships"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/show_internships"
+        android:background="@drawable/circle_button"
+        android:src="@drawable/FAQ"/>
+    
+    <Button android:id="@+id/informbtn"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_toRightOf="@id/informimg"
+        android:layout_below="@id/imgBtnShowInternships"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="-5dp"
+        android:background="@drawable/blue_button"
+        android:text="@string/questions"/>
+    
+</RelativeLayout>

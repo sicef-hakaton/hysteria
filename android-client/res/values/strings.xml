@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hysteria</string>
+    <string name="username">Korisnicko ime</string>
+    <string name="password">Sifra</string>
+    <string name="login">Prijavi se</string>
+    <string name="logo">Logo fakulteta</string>
+    <string name="title_activity_make_request">MakeRequestActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="send_request">Posalji zahtev</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="new_request">Novi zahtev</string>
+    <string name="show_requests">Prikazi zahteve</string>
+    <string name="show_schoolarships">Prikazi stipendije</string>
+    <string name="show_internships">Prikazi prakse</string>
+    <string name="title_activity_show_all_requests">ShowAllRequestsActivity</string>
+    <string name="title_activity_show_all_schoolarships">ShowAllSchoolarshipsActivity</string>
+    <string name="title_activity_show_all_internships">ShowAllInternshipsActivity</string>
+	<string name="require_document">Potrazi dokument</string>
+	<string name="questions">Studentska pitanja</string>
+	
+	<string name="document_type">Tip dokumenta</string>
+	<string-array name="categories">
+        <item>Potvrda za stipendiju</item>
+        <item>Potvrda za zdravstveno osiguranje</item>
+        <item>Potvrda za gradski prevoz</item>
+        <item>Transkript ocena</item>
+    </string-array>
+    
+	<string name="no_data">Nema sacuvanih zahteva/obavestenja</string>
+</resources>

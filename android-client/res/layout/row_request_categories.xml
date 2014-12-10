@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:id="@+id/tvCategory"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/document_type"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:background="@drawable/white_button"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+</LinearLayout>

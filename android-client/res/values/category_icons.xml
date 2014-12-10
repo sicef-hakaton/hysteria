@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="category_icons">
+        <!-- item>@drawable/monument</item-->
+        <item>@drawable/schoolarship</item>
+        <item>@drawable/public_transport</item>
+        <item>@drawable/healthcare</item>
+        <item>@drawable/average</item>
+    </array>
+</resources>
